@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: arial;
+  color: white;
+  background-color: rgb(204, 200, 200);
+}
+.container {
+  padding: 30px 12px 0px 25px;
+
+  border-radius: 10px;
+  background-color: rgb(25, 25, 25);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px; /* Adjust to desired width */
+  height: 570px; /* Adjust to desired height */
+}
+.title {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.move-icon {
+  height: 45px;
+}
+.move-button {
+  background-color: transparent;
+  border: 3px solid white;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.result {
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 50px;
+}
+.score {
+  margin-top: 50px;
+}
+.reset-score-button,
+.auto-play-button,
+.yes-button,
+.no-button {
+  background-color: white;
+  border: none;
+  padding: 8px 15px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+@media screen and (max-width: 670px) {
+  .container {
+    border-radius: none;
+  }
+}
